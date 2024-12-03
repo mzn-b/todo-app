@@ -28,6 +28,8 @@ WORKDIR /app
 
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+RUN chmod -R a+x node_modules
+RUN chmod -R a+x ./node_modules
 
 ENV NEXT_TELEMETRY_DISABLED 1
 

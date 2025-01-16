@@ -2,8 +2,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: todo-config
-  namespace: rpailer-dev
+  namespace: utsurob-dev
 data:
   SERVER_URL: "http://127.0.0.1:3000"
-  CLOUDANT_URL: "https://36368344-a692-4d01-bdb2-2e6d0f5f1d42-bluemix.cloudantnosqldb.appdomain.cloud"
+  CLOUDANT_URL: "https://b4c3b357-237e-495f-9578-2b98b99e510f-bluemix.cloudantnosqldb.appdomain.cloud"
   CLOUDANT_DB_NAME: "todo-db"

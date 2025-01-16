@@ -49,7 +49,7 @@ export default function NavBar () {
                   
                 </Menu> 
                 <Typography variant="h6">
-                Mazen El-shaarawi
+                ToDo-App-Mazen El-shaarawi
               </Typography>
             </Toolbar>
           </AppBar>
